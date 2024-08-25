@@ -1,0 +1,224 @@
+body {
+  background: #111;
+}
+
+.twitCard {
+  width: 600px;
+  border: 1px solid #2c2f36;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+}
+
+.twitCard picture img {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border: 1px solid #2c2f36;
+}
+
+.userImage svg {
+  border-radius: 50%;
+}
+
+.twitCard header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twitCard header div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.twitCard header h3,
+.twitCard header p {
+  margin: 0;
+  color: #b0b9c2;
+}
+
+.twitCard header h3 {
+  color: #e0e0e0;
+}
+
+/* footer card */
+.twitCard footer {
+  display: flex;
+}
+.twitCard footer > div {
+  width: 24%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #b0b9c2;
+  font-size: 14px;
+}
+
+.content p {
+  margin-right: 25px;
+  text-align: left;
+  color: #e0e0e0;
+}
+
+.content p span {
+  color: #1da1f2;
+}
+
+.content footer {
+  margin-top: 10px;
+}
+
+.formInputs {
+  margin-top: 30px;
+  position: relative;
+  padding-top: 47px;
+  display: flex;
+  justify-content: center;
+}
+
+.formInputs form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.formInputs form div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.formInputs form span > button {
+  height: 100%;
+  border-radius: 10px;
+  font-size: 17px;
+  background-color: #2c2f36;
+  width: 100%;
+  color: #1da1f2;
+  font-weight: 500;
+  border: 1px solid #5bc0f8;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button.btnVerified {
+  background-color: #5bc0f8 !important;
+  color: #fff !important;
+}
+
+.formInputs form span input {
+  width: 90%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background-color: #2c2f36;
+  color: #e0e0e0;
+}
+
+.formInputs form span input[type="text"],
+.formInputs form span input[type="number"],
+.formInputs form span input[type="datetime-local"] {
+  padding: 10px;
+}
+
+.formInputs form span label {
+  font-size: 17px;
+  margin-bottom: 6px;
+  display: inline-block;
+  color: #fff;
+}
+
+.formInputs form span textarea {
+  width: 90%;
+  resize: none;
+  margin-top: 14px;
+  padding: 17px;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  background-color: #2c2f36;
+  color: #e0e0e0;
+}
+
+.formInputs form span {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333;
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.hero {
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.bgWave {
+  background: #111;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero h1 {
+  margin: 0 0 76px;
+  font-size: 57px;
+  line-height: 50px;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.btnDownload {
+  background-color: #5bc0f8;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 20px 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  margin-top: 70px;
+  cursor: pointer;
+  transition: 0.5s background;
+}
+
+.btnDownload:hover {
+  color: #5bc0f8;
+  background-color: #fff;
+}
+
+.images {
+  width: 100%;
+  height: 281px;
+  border: 1px solid #444;
+  border-radius: 20px;
+}
+
+.images img {
+  width: 100%;
+  height: 279px;
+  border-radius: 20px;
+  /*object-fit: cover;*/
+  filter: saturate(1.5);
+}
